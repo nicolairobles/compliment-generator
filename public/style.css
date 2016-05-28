@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Custom Styles */
+
+
+* {
+	background-color: #0080ff;
+}
+
+
+body {
+	font-family: helvetica,arial,sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+}
+
+.wrapper {
+	text-align: left;
+	height: 40px;
+	font-weight: normal;
+	padding: 5px 5px;
+	font-size: 1.5em;
+}
+
+.compliment h1  {
+	padding: 10% 5% 5% 5%;
+	display: inline-block;
+	max-width: 90%;
+	margin: 0 15%;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+a {
+	font-family: inherit;
+	color: inherit;
+	text-decoration: none;	
+}
+
+.button {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: normal;
+	color: white;
+	border: solid white 5px;
+	padding: 20px 10px;
+	margin: 20px 20px;
+	min-height: 100px;
+	width: 300px;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+/* Header */
+
+.logo {
+  height: 35px;
+  display: inline-block;
+  float: left;
+}
+.main_navigation{
+  float: right;
+  width: 35px;
+  height: 35px;
+}
+.main_navigation ul {
+  float: right;
+  text-align: right;
+  display: none;
+}
+
+.main_navigation li{
+	position: relative;
+	padding-bottom: 10px;
+}
+
+footer {
+	right: 30%;
+	left: 30%;
+	position: fixed;
+	bottom: 2%;
+	padding-top: 7%;
+	font-size: .8em;
+}
+/*
+ul.sub_main_navigation li {
+  padding: 12px;
+  position: relative;
+}
+
+ul.main_navigation li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px;
+}
+
+
+ul.sub_main_navigation {
+  position: absolute;
+  top: 52px;
+  background: #000;
+  display: none;
+}
+
+ul.sub_main_navigation li {
+  display: block;
+}
+ul.sub_main_navigation li a{
+  color: #fff;
+}*/
